@@ -1,0 +1,52 @@
+# === Large data & model artifacts (never commit) ===
+*.npy
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# === Virtual environments ===
+venv/
+.venv/
+env/
+work/venv/
+work/hf_home/
+
+# === Feature / data directories ===
+work/features/
+work/features_fg/
+work/features_menswear_backup/
+cloud_run/work/features/
+cloud_run/work/features_5k/
+cloud_run/work/features_5k_unnorm/
+
+# === Python bytecode & caches ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# === IDE / OS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
+
+# === Temporary helper scripts ===
+_*.py
